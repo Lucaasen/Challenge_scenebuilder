@@ -15,7 +15,7 @@
     <children>
       <ImageView fitHeight="800.0" fitWidth="400.0" layoutX="144.0" layoutY="258.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <image>
-            <Image url="@Blauw%20achtergrond.jpg" />
+            <Image url="@Blauw_achtergrond.jpg" />
          </image>
       </ImageView>
       <HBox alignment="CENTER" layoutX="-9.0" layoutY="700.0" prefHeight="80.0" prefWidth="400.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
