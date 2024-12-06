@@ -1,53 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
-<?import javafx.scene.control.ButtonBar?>
 <?import javafx.scene.control.Slider?>
 <?import javafx.scene.control.ToggleButton?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
     <children>
-      <ButtonBar layoutY="700.0" prefHeight="104.0" prefWidth="357.0">
-        <buttons>
-            <Button mnemonicParsing="false" text="Button" />
-            <Button mnemonicParsing="false" text="Button" />
-            <Button mnemonicParsing="false" text="Button" />
-          <Button mnemonicParsing="false" text="Button" />
-            <Button mnemonicParsing="false" text="Button">
+      <ImageView fitHeight="800.0" fitWidth="400.0" layoutX="144.0" layoutY="258.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@Blauw%20achtergrond.jpg" />
+         </image>
+      </ImageView>
+      <HBox alignment="CENTER" layoutX="-9.0" layoutY="700.0" prefHeight="80.0" prefWidth="400.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+          <Button maxHeight="80.0" maxWidth="80.0" minHeight="80.0" minWidth="80.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0">
                <graphic>
-                  <ImageView fitHeight="76.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="70.0" fitWidth="70.0" preserveRatio="true">
+                     <image>
+                        <Image url="@home-page-icon-0.png" />
+                     </image>
+                  </ImageView>
                </graphic>
             </Button>
-        </buttons>
-      </ButtonBar>
-        <Button contentDisplay="CENTER" layoutX="286.0" layoutY="40.0" maxHeight="80.0" maxWidth="80.0" minHeight="80.0" minWidth="80.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" AnchorPane.rightAnchor="40.0" AnchorPane.topAnchor="40.0">
+            <Button maxHeight="80.0" maxWidth="80.0" minHeight="80.0" minWidth="80.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0">
+               <graphic>
+                  <ImageView fitHeight="70.0" fitWidth="70.0" preserveRatio="true">
+                     <image>
+                        <Image url="@1170678.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button maxHeight="80.0" maxWidth="80.0" minHeight="80.0" minWidth="80.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0">
+               <graphic>
+                  <ImageView fitHeight="70.0" fitWidth="70.0" preserveRatio="true">
+                     <image>
+                        <Image url="@1075003.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button maxHeight="80.0" maxWidth="80.0" minHeight="80.0" minWidth="80.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0">
+               <graphic>
+                  <ImageView fitHeight="70.0" fitWidth="70.0" preserveRatio="true">
+                     <image>
+                        <Image url="@649910_user_512x512.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button maxHeight="80.0" maxWidth="80.0" minHeight="80.0" minWidth="80.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0">
+               <graphic>
+                  <ImageView fitHeight="70.0" fitWidth="70.0" preserveRatio="true">
+                     <image>
+                        <Image url="@settings-solid.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </HBox>
+        <Button contentDisplay="CENTER" layoutX="286.0" layoutY="40.0" maxHeight="80.0" maxWidth="80.0" minHeight="80.0" minWidth="80.0" mnemonicParsing="false" opacity="0.8" prefHeight="80.0" prefWidth="80.0" AnchorPane.rightAnchor="40.0" AnchorPane.topAnchor="40.0">
             <graphic>
                 <ImageView fitHeight="70.0" fitWidth="70.0" preserveRatio="true">
                     <image>
-                        <Image url="@../../../../../../../../Downloads/25706.png" />
+                        <Image url="@25706.png" />
                     </image>
                 </ImageView>
             </graphic></Button>
         <Rectangle arcHeight="30.0" arcWidth="30.0" fill="WHITE" height="80.0" layoutX="30.0" layoutY="195.0" stroke="BLACK" strokeType="INSIDE" width="340.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" />
         <Rectangle arcHeight="30.0" arcWidth="30.0" fill="WHITE" height="80.0" layoutX="31.0" layoutY="288.0" stroke="BLACK" strokeType="INSIDE" width="340.0" AnchorPane.bottomAnchor="432.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="288.0" />
-        <Slider blockIncrement="5.0" layoutX="42.0" layoutY="328.0" prefHeight="30.0" prefWidth="320.0" value="40.0" AnchorPane.leftAnchor="42.0" AnchorPane.rightAnchor="42.0" />
+        <Slider blockIncrement="5.0" layoutX="42.0" layoutY="328.0" prefHeight="30.0" prefWidth="320.0" value="40.0" />
         <Rectangle arcHeight="30.0" arcWidth="30.0" fill="WHITE" height="80.0" layoutX="30.0" layoutY="385.0" stroke="BLACK" strokeType="INSIDE" width="340.0" />
-        <Button alignment="CENTER" layoutX="30.0" layoutY="385.0" mnemonicParsing="false" opacity="0.2" prefHeight="80.0" prefWidth="340.0" AnchorPane.bottomAnchor="335.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="385.0">
-            <font>
-                <Font name="System Bold" size="32.0" />
-            </font>
-        </Button>
         <Text fontSmoothingType="LCD" layoutX="60.0" layoutY="437.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tank Toevoegen +" textAlignment="CENTER" wrappingWidth="340.0" AnchorPane.bottomAnchor="340.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="402.0">
             <font>
                 <Font name="System Bold" size="32.0" />
             </font>
         </Text>
+        <Button alignment="CENTER" contentDisplay="CENTER" layoutX="30.0" layoutY="385.0" mnemonicParsing="false" opacity="0.2" prefHeight="80.0" prefWidth="340.0" AnchorPane.bottomAnchor="335.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="385.0">
+            <font>
+                <Font name="System Bold" size="32.0" />
+            </font>
+        </Button>
         <Rectangle arcHeight="30.0" arcWidth="30.0" fill="WHITE" height="220.0" layoutX="30.0" layoutY="417.0" stroke="BLACK" strokeType="INSIDE" width="340.0" AnchorPane.bottomAnchor="100.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="480.0" />
         <Slider blockIncrement="5.0" layoutX="42.0" layoutY="235.0" prefHeight="30.0" prefWidth="320.0" value="60.0" />
         <Text fontSmoothingType="LCD" layoutX="42.0" layoutY="223.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tank 1" wrappingWidth="116.13671875">
