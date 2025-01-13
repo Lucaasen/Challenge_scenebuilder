@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nl._404hhs.hello.Controller">
+   <children>
+      <ImageView fitHeight="800.0" fitWidth="400.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@Blauw_achtergrond.jpg" />
+         </image>
+      </ImageView>
+      <Button contentDisplay="CENTER" layoutX="286.0" layoutY="40.0" maxHeight="80.0" maxWidth="80.0" minHeight="80.0" minWidth="80.0" mnemonicParsing="false" opacity="0.8" prefHeight="80.0" prefWidth="80.0" AnchorPane.rightAnchor="40.0" AnchorPane.topAnchor="40.0">
+         <graphic>
+            <ImageView fitHeight="70.0" fitWidth="70.0" preserveRatio="true">
+               <image>
+                  <Image url="@25706.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="loginButton" alignment="CENTER" contentDisplay="CENTER" layoutX="250.0" layoutY="450.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="30.0" prefWidth="169.0" text="Inloggen" AnchorPane.bottomAnchor="320.0" AnchorPane.leftAnchor="250.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="450.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <TextField layoutX="30.0" layoutY="350.0" prefHeight="50.0" prefWidth="340.0" promptText="Gebruikersnaam" AnchorPane.bottomAnchor="400.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="350.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <PasswordField layoutX="30.0" layoutY="400.0" prefHeight="50.0" prefWidth="340.0" promptText="Wachtwoord" AnchorPane.bottomAnchor="350.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="400.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </PasswordField>
+      <TextField alignment="CENTER" editable="false" layoutX="140.0" layoutY="320.0" prefHeight="30.0" prefWidth="125.0" text="Login" AnchorPane.bottomAnchor="450.0" AnchorPane.leftAnchor="140.0" AnchorPane.rightAnchor="140.0" AnchorPane.topAnchor="320.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </TextField>
+      <Button contentDisplay="CENTER" layoutX="30.0" layoutY="450.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="120.0" text="Aanmelden">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
